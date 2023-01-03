@@ -1,0 +1,98 @@
+/* Write your CSS code here. */
+* {
+  font-family: Roboto;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  border: 0.5px solid #ffeeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed-back-card {
+  border-radius: 13px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #ffebeb, -20px -20px 60px #ffffff;
+  width: 80%;
+  text-align: center;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .feed-back-card {
+    border-radius: 13px;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #ffebeb, -20px -20px 60px #ffffff;
+    width: 650px;
+    text-align: center;
+    padding: 36px;
+  }
+}
+
+.feed-back-card-heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .feed-back-card-heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-top: 16px;
+  }
+}
+
+.list-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin-top: 26px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.feed-back-image {
+  height: 48px;
+  width: 48px;
+}
+
+.feed-back-desc {
+  font-size: 14px;
+  font-weight: 200;
+  color: #1e293b;
+}
+
+.button {
+  background-color: transparent;
+  border: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin-top: 36px;
+  }
+  .feed-back-image {
+    height: 60px;
+    width: 60px;
+  }
+  .feed-back-desc {
+    font-size: 20px;
+    font-weight: 200;
+    color: #1e293b;
+    text-align: center;
+  }
+}
